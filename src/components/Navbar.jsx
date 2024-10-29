@@ -1,3 +1,4 @@
+
 import { useState } from "react"
 import { BiMenu, BiX } from "react-icons/bi";
 import { BsGithub, BsInstagram, BsLinkedin } from "react-icons/bs"
@@ -13,10 +14,9 @@ const Navbar = () => {
   return (
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdorp-blur-md md:justify-evenly">
 
-      <a href="#home" className="bg-gradient-to-r from-blue-500 to-green-500 
-      bg-clip-text text-transparent opacity-80 text-3xl font-semibold 
-      transition-all duration-300 hover:opacity-100">Henrique</a>
-
+      <div className="flex items-center">
+        <img src="/public/logo.png" alt="Logo" className="h-10 w-auto" />
+      </div>
       <ul className="hidden md:flex gap-10">
 
         <a href="#home" className="cursor-pointer opacity-70
@@ -50,13 +50,13 @@ const Navbar = () => {
         </li>
 
         <li className="cursor-pointer text-xl opacity-70 
-        transition-all duration-300 hover:text-cyan-500
+        transition-all duration-300 hover:text-purple-500
         hover:opacity-100">
           <BsGithub />
         </li>
 
         <li className="cursor-pointer text-xl opacity-70 
-        transition-all duration-300 hover:text-green-500
+        transition-all duration-300 hover:text-red-500
         hover:opacity-100">
           <BsInstagram />
         </li>
@@ -105,13 +105,13 @@ const Navbar = () => {
               </li>
 
               <li className="cursor-pointer text-xl opacity-70 
-              transition-all duration-300 hover:text-cyan-500
+              transition-all duration-300 hover:text-purple-500
               hover:opacity-100">
                 <BsGithub />
               </li>
 
               <li className="cursor-pointer text-xl opacity-70 
-              transition-all duration-300 hover:text-green-500
+              transition-all duration-300 hover:text-red-500
               hover:opacity-100">
                 <BsInstagram />
               </li>
