@@ -1,11 +1,8 @@
+# React + Vite
 
-Welcome to my personal portfolio! This space is a reflection of my journey as a backend developer with a passion for technology, cybersecurity, hardware, and data science. Here, you'll discover:
+This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
 
-Projects: A showcase of both completed and ongoing projects, demonstrating my skills in backend development, frontend experiences, and full-stack work.
-Technologies: Insight into the tools and languages I work with, such as Node.js, SpringBoot, Python, Java, and more.
-Data Science: A glimpse into my studies and projects related to data science, highlighting my work with data analysis, modeling, and machine learning.
-Education & Certifications: An overview of my academic background, professional courses, and certifications that have shaped my expertise.
-Development Journey: An evolving record of my progress, new challenges, and the passion that drives my continuous growth in the field.
-Feel free to explore the portfolio and learn more about the work I do. If you're interested in collaborating or simply want to connect, don't hesitate to reach out!
+Currently, two official plugins are available:
 
-Stay curious, stay connected.
+- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
+- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
