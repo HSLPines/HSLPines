@@ -14,7 +14,8 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "predeploy": "npm run build",
-    "deploy": "gh-pages -d dist"
+    "deploy": "gh-pages -d dist",
+    "update-deploy": "git add . && git commit -m 'Update' && git push origin main && npm run deploy"
 
   },
   "dependencies": {
