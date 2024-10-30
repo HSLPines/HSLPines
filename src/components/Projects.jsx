@@ -1,41 +1,35 @@
-import image1 from '/public/1.png';
-import image2 from '/public/2.png';
-import image3 from '/public/3.png';
-import image4 from '/public/4.png';
-import image5 from '/public/5.png';
+import image1 from '/public/1.jpg';
+import image2 from '/public/2.jpg';
+import image3 from '/public/3.jpg';
 import { motion } from 'framer-motion';
 
 const projectsData = [
+
   {
+
     image: image1,
-    title: 'Project 1',
-    description: 'This is a project description',
-    technologies: ['React', 'Node', 'MongoDB'],
+    title: 'EMGods',
+    description: 'A dashboard platform providing insights and analyses of EMG (Electromyography) signals captured using an Arduino prototype. Designed for human-machine interaction studies and biofeedback.',
+    technologies: ['Docker', 'SpringBoot', 'Arduino'],
+
   },
   {
+
     image: image2,
-    title: 'Project 2',
-    description: 'This is a project description',
-    technologies: ['React', 'Node', 'MongoDB'],
+    title: 'Diet Controller',
+    description: 'A web application for tracking dietary goals and personalized recipes, integrating AI for meal recognition and nutritional analysis.',
+    technologies: ['React', 'Node', 'PostgreSQL'],
+
   },
   {
+
     image: image3,
-    title: 'Project 3',
-    description: 'This is a project description',
-    technologies: ['React', 'Node', 'MongoDB'],
+    title: 'EasyTrash',
+    description: 'A sustainable platform for connecting users with recycling points and educating on eco-friendly practices.',
+    technologies: ['HTML', 'CSS', 'JavaScript'],
+
   },
-  {
-    image: image4,
-    title: 'Project 4',
-    description: 'This is a project description',
-    technologies: ['React', 'Node', 'MongoDB'],
-  },
-  {
-    image: image5,
-    title: 'Project 5',
-    description: 'This is a project description',
-    technologies: ['React', 'Node', 'MongoDB'],
-  },
+ 
 ];
 
 const ScrollReveal = ({ children }) => {

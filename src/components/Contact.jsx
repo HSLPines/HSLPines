@@ -19,14 +19,7 @@ const Contact = () => {
           >
             Contact Me
           </a>
-          <a
-            href="https://wa.me/5519991572548?text=Hello%2C%20I%20would%20like%20to%20get%20in%20touch%21"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="cursor-pointer"
-          >
-            <BiLogoWhatsapp className='text-[60px] text-green-500 transition-all duration-300 hover:translate-y-5 sm:text-[80px] md:text-[100px]' />
-          </a>
+          
         </div>
       </div>
     </div>

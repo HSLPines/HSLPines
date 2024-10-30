@@ -44,23 +44,29 @@ const Navbar = () => {
 
       <ul className="hidden md:flex gap-5">
 
-        <li className="cursor-pointer text-xl opacity-70 
-        transition-all duration-300 hover:text-blue-500
-        hover:opacity-100">
-          <BsLinkedin />
-        </li>
+        <a href="https://www.linkedin.com/in/henrique-lecce-311a45234/" target="_blank" rel="noopener noreferrer">
+          <li className="cursor-pointer text-xl opacity-70 
+            transition-all duration-300 hover:text-blue-500
+            hover:opacity-100">
+            <BsLinkedin />
+          </li>
+        </a>
 
-        <li className="cursor-pointer text-xl opacity-70 
-        transition-all duration-300 hover:text-purple-500
-        hover:opacity-100">
-          <BsGithub />
-        </li>
+        <a href="https://github.com/HSLPines" target="_blank" rel="noopener noreferrer">
+          <li className="cursor-pointer text-xl opacity-70 
+            transition-all duration-300 hover:text-purple-500
+            hover:opacity-100">
+            <BsGithub />
+          </li>
+        </a>
 
-        <li className="cursor-pointer text-xl opacity-70 
-        transition-all duration-300 hover:text-red-500
-        hover:opacity-100">
-          <BsInstagram />
-        </li>
+        <a href="https://www.instagram.com/hlecce73/" target="_blank" rel="noopener noreferrer">
+          <li className="cursor-pointer text-xl opacity-70 
+            transition-all duration-300 hover:text-red-500
+            hover:opacity-100">
+            <BsInstagram />
+          </li>
+        </a>
 
       </ul>
 
