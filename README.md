@@ -40,10 +40,10 @@ Here's a breakdown of the main tools, frameworks, and platforms I use:
 
 Here are some of my featured projects. You can check out the full list and details in my portfolio!
 
-- **[Project 1: EMGods]((https://github.com/HSLPines/emgSensor))** - A dashboard platform providing insights and analyses of EMG (Electromyography) signals captured using an Arduino prototype. Designed for human-machine interaction studies and biofeedback.
-- **[Project 2: Diet Controller]((https://github.com/HSLPines/dietControllerBack))** - A web application for tracking dietary goals and personalized recipes, integrating AI for meal recognition and nutritional analysis.
-- **[Project 3: EasyTrash]((https://github.com/tech-espm/inter-2sem-2024-easy-trash))** - A sustainable platform for connecting users with recycling points and educating on eco-friendly practices.
-- **[Project 4: Russin Bank]((https://github.com/Marcio-Alexandroni/Trab-1-Sandmann-Banco))** - A Java-based banking simulation with GUI, featuring account management and transaction handling.
+- **[Project 1: EMGods](https://github.com/HSLPines/emgSensor)** - A dashboard platform providing insights and analyses of EMG (Electromyography) signals captured using an Arduino prototype. Designed for human-machine interaction studies and biofeedback.
+- **[Project 2: Diet Controller](https://github.com/HSLPines/dietControllerBack)** - A web application for tracking dietary goals and personalized recipes, integrating AI for meal recognition and nutritional analysis.
+- **[Project 3: EasyTrash](https://github.com/tech-espm/inter-2sem-2024-easy-trash)** - A sustainable platform for connecting users with recycling points and educating on eco-friendly practices.
+- **[Project 4: Russin Bank](https://github.com/Marcio-Alexandroni/Trab-1-Sandmann-Banco)** - A Java-based banking simulation with GUI, featuring account management and transaction handling.
 
 ---
 
@@ -51,9 +51,9 @@ Here are some of my featured projects. You can check out the full list and detai
 
 Let’s connect! Feel free to reach out or follow me on these platforms:
 
-- **LinkedIn**: [Henrique Lecce]((https://www.linkedin.com/in/henrique-lecce-311a45234/))
-- **GitHub**: [HSLPines]((https://github.com/HSLPines))
-- **Instagram**: [hlecce73]((https://www.instagram.com/hlecce73/))
+- **LinkedIn**: [Henrique Lecce](https://www.linkedin.com/in/henrique-lecce-311a45234/)
+- **GitHub**: [HSLPines](https://github.com/HSLPines)
+- **Instagram**: [hlecce73](https://www.instagram.com/hlecce73/)
 - **Email**: [hlecce.contato@gmail.com](mailto:hlecce.contato@gmail.com)
 
 ---
