@@ -31,7 +31,7 @@ const Hero = () => {
             bg-clip-text text-transparent text-5xl font-light md:text-7xl">Henrique Lecce</h1>
           <h3 className="bg-gradient-to-r from-blue-500 to-red-500 
             bg-clip-text text-transparent text-2xl md:text-3xl">Programmer</h3>
-          <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in Human-Machine Interaction (HMI) and AI-driven environmental monitoring</p>
+          <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in Brain-Computer Interaction (BCI) and AI-driven environmental monitoring</p>
 
         </motion.div>
 
