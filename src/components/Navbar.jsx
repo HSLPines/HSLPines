@@ -16,7 +16,7 @@ const Navbar = () => {
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdorp-blur-md md:justify-evenly">
 
       <div className="flex items-center">
-        <img src="/logo.png" alt="" className="h-10 w-auto" />
+        <img src="/public/logo.png" alt="" className="h-10 w-auto" />
       </div>
       <ul className="hidden md:flex gap-10">
 

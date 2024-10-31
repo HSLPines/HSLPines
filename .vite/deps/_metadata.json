@@ -1,37 +1,37 @@
 {
-  "hash": "d2405839",
+  "hash": "6ed79c4b",
   "configHash": "3b456d91",
-  "lockfileHash": "f4f5fc59",
-  "browserHash": "a5153ed1",
+  "lockfileHash": "4882ff97",
+  "browserHash": "804c55ba",
   "optimized": {
     "react": {
       "src": "../../node_modules/react/index.js",
       "file": "react.js",
-      "fileHash": "49372e20",
+      "fileHash": "2657f90d",
       "needsInterop": true
     },
     "react-dom/client": {
       "src": "../../node_modules/react-dom/client.js",
       "file": "react-dom_client.js",
-      "fileHash": "d7794404",
+      "fileHash": "469b35f5",
       "needsInterop": true
     },
     "react-icons/bi": {
       "src": "../../node_modules/react-icons/bi/index.mjs",
       "file": "react-icons_bi.js",
-      "fileHash": "c038da59",
+      "fileHash": "949829f5",
       "needsInterop": false
     },
     "react-icons/bs": {
       "src": "../../node_modules/react-icons/bs/index.mjs",
       "file": "react-icons_bs.js",
-      "fileHash": "defa0500",
+      "fileHash": "b7e9edd5",
       "needsInterop": false
     },
     "framer-motion": {
       "src": "../../node_modules/framer-motion/dist/es/index.mjs",
       "file": "framer-motion.js",
-      "fileHash": "90560049",
+      "fileHash": "724d683d",
       "needsInterop": false
     }
   },

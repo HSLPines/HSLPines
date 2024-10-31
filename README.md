@@ -7,7 +7,7 @@ Welcome to my portfolio! I’m Henrique Lecce, a **versatile programmer, data sc
 
 ## 👨‍💻 About Me
 
-I'm a passionate tech professional with a broad skill set in **front-end** and **back-end** development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in **Human-Machine Interaction (HMI)** and **AI-driven environmental monitoring**, exploring how we can create seamless connections between humans and technology and improve communities through data-driven insights.
+I'm a passionate tech professional with a broad skill set in **front-end** and **back-end** development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in **Brain-Computer Interface (BCI)** and **AI-driven environmental monitoring**, exploring how we can create seamless connections between humans and technology and improve communities through data-driven insights.
 
 ---
 
