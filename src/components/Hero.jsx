@@ -32,7 +32,7 @@ const Hero = () => {
             bg-clip-text text-transparent text-2xl md:text-3xl">Programmer</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in Brain-Computer Interaction (BCI) and AI-driven environmental monitoring</p>
         
-          {/* Buttons Section */}
+          
           <motion.div
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
@@ -42,7 +42,7 @@ const Hero = () => {
             <a href="/components/About.jsx" className="bg-gradient-to-r from-red-500 to-orange-500 hover:bg-gradient-to-r from-red-700 to-orange-700 text-white px-6 py-2 rounded-full transition-all duration-300">
               More About Me
             </a>
-            <a href="/public/henriqueLecceCV.pdf" download className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:bg-gradient-to-r from-orange-700 to-yellow-700 text-white px-6 py-2 rounded-full transition-all duration-300">
+            <a href="public/henriqueLecceCV.pdf" download className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:bg-gradient-to-r from-orange-700 to-yellow-700 text-white px-6 py-2 rounded-full transition-all duration-300">
               Download CV
             </a>
           </motion.div>
