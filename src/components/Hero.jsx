@@ -39,10 +39,10 @@ const Hero = () => {
             transition={{ duration: 0.8, delay: 0.4 }}
             className="flex gap-4 mt-4"
           >
-            <a href="/components/About.jsx" className="bg-gradient-to-r from-red-500 to-orange-500 hover:bg-gradient-to-r from-red-700 to-orange-700 text-white px-6 py-2 rounded-full transition-all duration-300">
+            <a href="/components/About.jsx" className="bg-gradient-to-r from-red-500 to-orange-500 hover:bg-gradient-to-r from-red-700 to-orange-700 hover:translate-y-3 text-white px-6 py-2 rounded-full transition-all duration-300">
               More About Me
             </a>
-            <a href="public/henriqueLecceCV.pdf" download className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:bg-gradient-to-r from-orange-700 to-yellow-700 text-white px-6 py-2 rounded-full transition-all duration-300">
+            <a href="public/henriqueLecceCV.pdf" download className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:bg-gradient-to-r from-orange-700 to-yellow-700 hover:translate-y-3 text-white px-6 py-2 rounded-full transition-all duration-300">
               Download CV
             </a>
           </motion.div>
