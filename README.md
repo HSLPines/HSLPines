@@ -1,5 +1,5 @@
 
-# Henrique Lecce - Portfolio
+# Henrique Lecce
 
 Welcome to my portfolio! I’m Henrique Lecce, a **versatile programmer, data scientist, cybersecurity enthusiast, hardware developer, and researcher**. Here, you’ll find my collection of projects, contact information, and the tools and languages I use to turn ideas into impactful solutions.
 
