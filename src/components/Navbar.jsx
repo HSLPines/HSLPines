@@ -12,11 +12,11 @@ const Navbar = () => {
   }
 
   return (
-    
+
     <nav className="fixed top-0 z-10 flex w-full items-center justify-between border-b border-b-gray-700 bg-black/70 px-16 py-6 text-white backdorp-blur-md md:justify-evenly">
 
       <div className="flex items-center">
-        <img src="/public/logo.png" alt="" className="h-10 w-auto" />
+        <img src="public/logo.png" alt="" className="h-10 w-auto" />
       </div>
       <ul className="hidden md:flex gap-10">
 
@@ -45,27 +45,33 @@ const Navbar = () => {
       <ul className="hidden md:flex gap-5">
 
         <a href="https://www.linkedin.com/in/henrique-lecce-311a45234/" target="_blank" rel="noopener noreferrer">
+          
           <li className="cursor-pointer text-xl opacity-70 
             transition-all duration-300 hover:text-blue-500
             hover:opacity-100">
             <BsLinkedin />
           </li>
+
         </a>
 
         <a href="https://github.com/HSLPines" target="_blank" rel="noopener noreferrer">
+          
           <li className="cursor-pointer text-xl opacity-70 
             transition-all duration-300 hover:text-purple-500
             hover:opacity-100">
             <BsGithub />
           </li>
+
         </a>
 
         <a href="https://www.instagram.com/hlecce73/" target="_blank" rel="noopener noreferrer">
+          
           <li className="cursor-pointer text-xl opacity-70 
             transition-all duration-300 hover:text-red-500
             hover:opacity-100">
             <BsInstagram />
           </li>
+
         </a>
 
       </ul>
@@ -77,6 +83,7 @@ const Navbar = () => {
       )}
 
       {isOpen && (
+
         <div className={'fixed right-0 top-[84px] flex h-screen w-1/2 flex-col items-start justify-start gap-10 border-1 border-gray-800 bg-black/90 p-12 ${isOpnen ? "block" : "hidden"} '}>
 
             <ul className="flex flex-col gap-8">
@@ -106,36 +113,45 @@ const Navbar = () => {
             <ul className="flex flex-wrap gap-5">
 
               <a href="https://www.linkedin.com/in/henrique-lecce-311a45234/" target="_blank" rel="noopener noreferrer">
+                
                 <li className="cursor-pointer text-xl opacity-70 
                   transition-all duration-300 hover:text-blue-500
                   hover:opacity-100">
                   <BsLinkedin />
                 </li>
+
               </a>
 
               <a href="https://github.com/HSLPines" target="_blank" rel="noopener noreferrer">
+                
                 <li className="cursor-pointer text-xl opacity-70 
                   transition-all duration-300 hover:text-purple-500
                   hover:opacity-100">
                   <BsGithub />
                 </li>
+
               </a>
 
               <a href="https://www.instagram.com/hlecce73/" target="_blank" rel="noopener noreferrer">
+                
                 <li className="cursor-pointer text-xl opacity-70 
                   transition-all duration-300 hover:text-red-500
                   hover:opacity-100">
                   <BsInstagram />
                 </li>
+
               </a>
 
             </ul>
 
         </div>
+
       )}
       
     </nav>
+
   )
+  
 }
 
 export default Navbar

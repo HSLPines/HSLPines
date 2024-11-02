@@ -5,11 +5,13 @@ import { motion } from "framer-motion"
 const Hero = () => {
 
   return (
+
     <div id="home" className='px-16 flex min-h-screen w-full items-center justify-center py-28 md:px-32'>
 
       <div className='flex flex-col items-center justify-center gap-10 text-white'>
 
         <motion.div
+
           initial={{y: -50, opacity: 0}}
           animate={{y: 0, opacity: 1}}
           transition={{duration: 0.8, delay: 0.2}}
@@ -17,9 +19,11 @@ const Hero = () => {
           <img src={image} alt="" className='w-[300px] cursor-pointer rounded-full shadow-xl shadow-green-900 
           transition-all duration-300 hover:-translate-y-5 hover:scale-105 hover:shadow-2xl hover:shadow-green-600
           md:w-[350px]'/>
+
         </motion.div>
 
         <motion.div 
+
           initial={{y: 50, opacity: 0}}
           animate={{y: 0, opacity: 1}}
           transition={{duration: 0.8, delay: 0.2}}
@@ -30,10 +34,11 @@ const Hero = () => {
             bg-clip-text text-transparent text-5xl font-light md:text-7xl">Henrique Lecce</h1>
           <h3 className="bg-gradient-to-r from-indigo-500 to-red-500 
             bg-clip-text text-transparent text-2xl md:text-3xl">Programmer</h3>
-          <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in Brain-Computer Interface (BCI) and AI-driven environmental monitoring</p>
+          <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity, science and a desire to bridge technology with meaningful, real-world applications.</p>
         
           
           <motion.div
+
             initial={{ opacity: 0 }}
             animate={{ opacity: 1 }}
             transition={{ duration: 0.8, delay: 0.4 }}
@@ -45,13 +50,17 @@ const Hero = () => {
             <a href="public/henriqueLecceCV.pdf" download className="bg-gradient-to-r from-orange-500 to-yellow-500 hover:bg-gradient-to-r from-orange-700 to-yellow-700 hover:translate-y-3 text-white px-6 py-2 rounded-full transition-all duration-300">
               Download CV
             </a>
+
           </motion.div>
+
         </motion.div>
 
       </div>
 
     </div>
+
   )
+
 }
 
 export default Hero

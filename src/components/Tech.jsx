@@ -15,52 +15,64 @@ const Tech = () => {
 
 
       <motion.h1
+
       variants={variants}
       initial='hidden'
       whileInView="visible"
       transition={{duration: 0.6, delay: 0.2}}
+
       className='text-4xl font-light text-white md:text-6xl'>Technologies</motion.h1>
 
       <div className='flex flex-wrap items-center justify-center gap-10 p-5'>
 
         <motion.div
+
         variants={variants}
         initial='hidden'
         whileInView="visible"
         transition={{duration: 0.6, delay: 0.2}}>
           <BiLogoNodejs className='cursor-pointer text-[80px] text-green-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]'/>
+        
         </motion.div>
 
         <motion.div
+
         variants={variants}
         initial='hidden'
         whileInView="visible"
         transition={{duration: 0.6, delay: 0.2}}>
           <BiLogoReact className='cursor-pointer text-[80px] text-cyan-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]'/>
+        
         </motion.div>
 
         <motion.div
+
         variants={variants}
         initial='hidden'
         whileInView="visible"
         transition={{duration: 0.6, delay: 0.2}}>
           <BiLogoDocker className='cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]'/>
+        
         </motion.div>
 
         <motion.div
+
         variants={variants}
         initial='hidden'
         whileInView="visible"
         transition={{duration: 0.6, delay: 0.2}}>
           <BiLogoBootstrap className='cursor-pointer text-[80px] text-purple-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]'/>
+        
         </motion.div>
 
         <motion.div
+
         variants={variants}
         initial='hidden'
         whileInView="visible"
         transition={{duration: 0.6, delay: 0.2}}>
           <BiLogoPostgresql className='cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:translate-y-5 sm:text-[100px] md:text-[120px]'/>
+        
         </motion.div>
 
         <motion.div
