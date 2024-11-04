@@ -1,5 +1,5 @@
 
-# Henrique Lecce - Portfolio
+# Henrique Lecce
 
 Welcome to my portfolio! I’m Henrique Lecce, a **versatile programmer, data scientist, cybersecurity enthusiast, hardware developer, and researcher**. Here, you’ll find my collection of projects, contact information, and the tools and languages I use to turn ideas into impactful solutions.
 
@@ -7,7 +7,7 @@ Welcome to my portfolio! I’m Henrique Lecce, a **versatile programmer, data sc
 
 ## 👨‍💻 About Me
 
-I'm a passionate tech professional with a broad skill set in **front-end** and **back-end** development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications. I'm especially interested in **Brain-Computer Interface (BCI)** and **AI-driven environmental monitoring**, exploring how we can create seamless connections between humans and technology and improve communities through data-driven insights.
+I'm a passionate tech professional with a broad skill set in **front-end** and **back-end** development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity and a desire to bridge technology with meaningful, real-world applications exploring how we can create seamless connections between humans, nature and technology and improve communities through data-driven insights.
 
 ---
 
@@ -16,14 +16,13 @@ I'm a passionate tech professional with a broad skill set in **front-end** and *
 Here's a breakdown of the main tools, frameworks, and platforms I use:
 
 ### Programming Languages
-- **Python** | **Java** | **JavaScript** | **TypeScript** | **R** | **C++**
-- **HTML** & **CSS** (for structured and styled web design)
+- **Python** | **Java** | **JavaScript** | **TypeScript** | **R** | **C++** | **HTML** | **CSS** 
 
 ### Frameworks & Libraries
 - **React** | **NodeJS** | **SpringBoot** | **TailwindCSS** | **Bootstrap**
 
 ### Databases
-- **MySQL** | **PostgreSQL** | **Redis**
+- **MySQL** | **PostgreSQL** | **Redis** | **MongDB**
 
 ### Data & Visualization Tools
 - **Tableau** | **Pandas** | **NumPy** | **Matplotlib**
