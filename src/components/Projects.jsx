@@ -11,7 +11,7 @@ const projectsData = [
     image: image1,
     title: 'EMGods',
     description: 'A dashboard platform providing insights and analyses of EMG (Electromyography) signals captured using an Arduino prototype. Designed for human-machine interaction studies and biofeedback.',
-    technologies: ['Docker', 'SpringBoot', 'Arduino'],
+    technologies: ['Java', 'SpringBoot', 'Docker'],
 
   },
   {
