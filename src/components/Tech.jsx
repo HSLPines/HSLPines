@@ -4,7 +4,7 @@ import {
   BiLogoJava, BiLogoJavascript, BiLogoNodejs, BiLogoPostgresql, 
   BiLogoPython, BiLogoReact, BiLogoSpringBoot, BiLogoTailwindCss, BiLogoTypescript 
 } from 'react-icons/bi';
-import { SiMysql, SiMongodb, SiGit, SiKalilinux } from 'react-icons/si';
+import { SiMysql, SiMongodb, SiGit, SiKalilinux, SiNeo4J } from 'react-icons/si';
 import { DiAws } from "react-icons/di";
 import { motion } from 'framer-motion';
 
@@ -37,7 +37,7 @@ const Tech = () => {
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.25 }}>
-          <SiMongodb className="cursor-pointer text-[80px] text-green-600 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
+          <SiNeo4J className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.3 }}>
@@ -46,16 +46,16 @@ const Tech = () => {
 
         {/* DevOps/Tools */}
 
+        <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.45 }}>
+          <SiGit className="cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
+        </motion.div>
+
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.35 }}>
           <SiKalilinux className="cursor-pointer text-[80px] text-blue-400 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.4 }}>
           <BiLogoDocker className="cursor-pointer text-[80px] text-blue-500 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
-        </motion.div>
-
-        <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.45 }}>
-          <SiGit className="cursor-pointer text-[80px] text-red-500 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.5 }}>
@@ -69,7 +69,7 @@ const Tech = () => {
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.6 }}>
-          <BiLogoTailwindCss className="cursor-pointer text-[80px] text-cyan-500 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
+          <BiLogoTailwindCss className="cursor-pointer text-[80px] text-cyan-400 transition-all duration-300 hover:-translate-y-5 hover:scale-125 sm:text-[100px] md:text-[120px]" />
         </motion.div>
 
         <motion.div variants={variants} initial="hidden" whileInView="visible" transition={{ duration: 0.6, delay: 0.65 }}>
