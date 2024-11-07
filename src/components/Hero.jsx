@@ -33,7 +33,7 @@ const Hero = () => {
           <h1 className="bg-gradient-to-r from-green-500 to-blue-500 
             bg-clip-text text-transparent text-5xl font-light md:text-7xl">Henrique Lecce</h1>
           <h3 className="bg-gradient-to-r from-indigo-500 to-red-500 
-            bg-clip-text text-transparent text-2xl md:text-3xl">Programmer</h3>
+            bg-clip-text text-transparent text-2xl md:text-3xl">Developer</h3>
           <p className='md:text-base text-pretty text-sm text-gray-400'>I'm a passionate tech professional with a broad skill set in front-end and back-end development, data analysis, cybersecurity, and hardware prototyping. My work is driven by curiosity, science and a desire to bridge technology with meaningful, real-world applications.</p>
         
           
