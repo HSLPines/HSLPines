@@ -1,23 +1,25 @@
+
 import { Link } from "react-router-dom"
 import image from "/public/image.jpg"
 import { motion } from "framer-motion"
 
 const Hero = () => {
+
   return (
-    <div id="home" className='px-16 flex min-h-screen w-full items-center justify-center py-28 md:px-32'>
+
+    <div id="home" className='px-16 flex min-h-screen w-full items-center justify-center py-28'>
 
       <div className='flex flex-col xl:flex-row items-center justify-center gap-10 text-white'>
         
         {/* Imagem */}
         <motion.div
-          initial={{ y: -50, opacity: 0 }}
-          animate={{ y: 0, opacity: 1 }}
-          transition={{ duration: 0.8, delay: 0.2 }}
-          className="flex-shrink-0"
+          initial={{y: -50, opacity: 0}}
+          animate={{y: 0, opacity: 1}}
+          transition={{duration: 0.8, delay: 0.2}}
         >
-          <img src={image} alt="" className='w-[300px] cursor-pointer rounded-full shadow-xl shadow-green-900 
+          <img src={image} alt="" className='w-[500px] cursor-pointer rounded-full shadow-xl shadow-green-900 
             transition-all duration-300 hover:scale-105 hover:shadow-2xl hover:shadow-green-600
-            md:w-[350px] xl:w-[400px]' />
+            md:w-[350px]' />
         </motion.div>
 
         {/* Texto e Botões */}
@@ -25,7 +27,7 @@ const Hero = () => {
           initial={{ y: 50, opacity: 0 }}
           animate={{ y: 0, opacity: 1 }}
           transition={{ duration: 0.8, delay: 0.2 }}
-          className='flex max-w-[600px] flex-col items-center xl:items-start justify-center gap-3 text-center xl:text-left'
+          className='flex max-w-[600px] flex-col items-center xl:items-start justify-center gap-3 text-center'
         >
           <h1 className="bg-gradient-to-r from-green-500 to-blue-500 
             bg-clip-text text-transparent text-5xl font-light md:text-7xl">Henrique Lecce</h1>
@@ -51,7 +53,9 @@ const Hero = () => {
       </div>
 
     </div>
+
   )
+  
 }
 
 export default Hero

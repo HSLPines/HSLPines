@@ -60,7 +60,7 @@ const ProjectCard = ({ project }) => {
         <img
           src={project.image}
           alt=""
-          className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px] xl:w-[400px]"
+          className="w-full cursor-pointer rounded-2xl transition-all duration-300 hover:scale-105 md:w-[300px]"
         />
         <div className="flex flex-col gap-5">
 
@@ -103,7 +103,7 @@ const Projects = () => {
     >
       <ScrollReveal>
 
-        <h1 className="text-4xl font-light text-white md:text-6xl md:text-8xl">
+        <h1 className="text-4xl font-light text-white md:text-6xl">
           My Projects
         </h1>
 
